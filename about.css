@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: black; */
+    color: #C4F000;
+    }
+    body{
+        color: aliceblue;
+        /* background-color: black; */
+        /* background: rgb(34,193,195);
+        background: radial-gradient(circle, rgb(14, 14, 14) 80%, rgb(15, 2, 63) 100%); */
+        background-image: linear-gradient(90deg, #070708 0%, #000000 35%, #110236 100%);
+    }
+    
+    .logo{
+        height: 100px;
+        width: 150px;
+        margin: 0px 0px 0px 20px; 
+    }
+    .navbar{
+        height: 70px;
+        width: 100%;
+        background-color: black;
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+        gap: 30px;
+        overflow: hidden;
+        position: fixed;
+        border-bottom: 0.1px solid rgb(78, 78, 78);
+    }
+    .nav{
+        display: flex;
+        gap: 40px;
+        justify-content: space-between;
+    }
+    .nav a{
+        text-decoration: none;
+        color: rgb(167, 165, 165);
+        text-transform: capitalize;
+        font-size: 25px;
+    }
+    .link a{
+        color: rgb(167, 165, 165);
+    }
+    /* ************** start hover section************ */
+    .nav a:hover{ 
+        color: aliceblue;
+        font-size: 30px;
+        color:#C4F000;
+    }
+    .link a:hover{
+        color: aliceblue;
+        font-size: 25px;
+        border-radius: 20px;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+        color: #e6f5a5;
+    }
+    /* ****************hover section End***************** */
+    .link{
+        padding-right: 50px;
+        display: flex;
+        gap: 40px;
+        
+    }
+    .about-section{
+        display: flex;
+        justify-content: left;
+        /* align-items: center; */
+            /* height:300px;
+            width: 900px;
+            border: 1px solid red; */
+        /* margin: 100px 100px 100px 100px; */
+    }
+    h1{
+        margin: 150px 0px 0px 100px;
+        text-align: left;
+        text-transform: capitalize;
+        font-size: 80px;
+        font-family: arial;
+        color: aliceblue;
+    }
+    .para-section{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 10vh;
+        width: 100vh;
+        /* border: 1px solid red; */
+        margin: 100px 0px 0px 155px;
+    }
+    p{
+        font-size: 30px;
+        color: aliceblue;
+    }
+    .ecpriance-section{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+   .ecpriance-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+   .expri {
+    display: flex
+    
+   }
+   .expri h1{
+    font-size: 50px;
+    font-weight: bold;
+   }
+   .expri p{
+     margin: 170px 0px 0px 10px;
+     font-size: 20px;
+     color: beige;
+   }
+   .hero-section{
+    /* border: 1px solid red;
+    height: 200px;
+    width: 00px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ .hero-section h1{
+    margin-left: 50px;
+    font-size: 30px;
+    color:rgb(159, 154, 154);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px 0px 60px 70px;
+    font-family: verdana;
+    font-weight: 200;
+}
+img{
+    height: 70vh;
+    width: 65vh;
+    margin: 100px 0px 100px 100px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+p{
+    margin: 50px 0px 0px 95px;
+    font-size: 17px;
+    font-family: arial;
+    color: rgb(214, 206, 206);
+    
+}
+
+.paragraph p{
+  color: #110236;
+}
+
+
+.temp {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    height: 70vh;
+    width: 190vh;
+    margin-left: 70px;
+    margin-top: 80px;
+    margin-bottom: 60px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    background-color: #C4F000;
+    
+}
+.heading h1{
+    color: #000000;
+    margin: 0px 0px 0px 100px;
+}
+button{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    height: 60px;
+    width: 200px;
+    margin: 30px 0px 0px 465px;
+    background-color: black;
+    color: rgb(126, 128, 131);
+    font-size: 25px;
+    border: none;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+    text-transform: capitalize;
+}
+.btn1:hover{
+   color: white;
+   scale: 1.1;
+   
+}
